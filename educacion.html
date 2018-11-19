@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <header>
+      <svg width="132" height="132" xmlns="http://www.w3.org/2000/svg">
+       <g>
+        <title>Logo</title>
+        <ellipse  rx="65.5" id="svg_1" cy="66" cx="66" stroke-width="1.5" stroke="#007fff" fill="#005fbf"/>
+        <text stroke="#007fff" transform="matrix(3.1392844317597337,0,0,3.7481996408988607,-172.90627421453246,-628.9677233587879) " xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_2" y="193.91922" x="57.284434" stroke-width="0" fill="#FFFA8D">GO</text>
+       </g>
+      </svg>
+      <h1>Hoja de ruta</h1>
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="educacion.html">Educacion</a> |
+      <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <section>
+      <article>
+        <h2>Educación</h2>
+        <table border="1">
+          <tr>
+            <th>Año</th>
+            <th>Instituto</th>
+            <th>Lugar</th>
+            <th>¿Culminó?</th>
+          </tr>
+          <tr>
+            <td>2001</td>
+            <td>Instituto José Manuel Estrada</td>
+            <td>Buenos Aires</td>
+            <td>Si</td>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td>Universidad de Ciencias Empresariañes</td>
+            <td>Buenos Aires</td>
+            <td>No</td>
+          </tr>
+        </table>
+        <br>
+
+        <form action="index.html" method="post">
+          <fieldset>
+            <legend>Agregar educación</legend>
+            <label>Año</label>
+            <select name="year">
+              <option value="2018">2018</option>
+              <option value="2017">2017</option>
+              <option value="2016">2016</option>
+              <option value="2015">2015</option>
+              <option value="2014">2014</option>
+              <option value="2013">2013</option>
+            </select>
+            <br>
+            <label>Institución</label>
+            <input type="text" name="institucion" required>
+            <br>
+            <label>Lugar</label>
+            <br>
+            <textarea name="lugar" rows="8" cols="80"></textarea>
+            <br>
+            <input type="submit" name="enviar" value="Enviar">
+          </fieldset>
+        </form>
+      </article>
+    </section>
+    <hr>
+    <footer>
+      GERMAN LUIS OJEDA <br>
+      Email: admin@conceptoiy.net <br>
+    </footer>
+  </body>
+</html>
